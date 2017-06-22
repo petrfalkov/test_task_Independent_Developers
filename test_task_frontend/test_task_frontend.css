@@ -1,0 +1,530 @@
+/*            header             */
+#head {
+    width: 100%;
+    height: 15vw;
+    display: block;
+    position: relative;
+}
+
+#lines_head {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+/*BLUE LINE*/
+#blue_line {
+    position: relative;
+    width: 10vw;
+    height: 100%;
+    background-color: #514aff;
+    margin-left: 1.3vw;
+    z-index: 5;
+}
+
+#logo_img {
+    position: absolute;
+    margin: auto;
+    top: 6vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 8vw;
+}
+
+#white_line, #orange_line{
+    width: 100%;
+    height: 50%;
+}
+/*WHITE LINE*/
+#white_line {
+    position: relative;
+}
+
+#name_of_store {
+    position: absolute;
+    left: 15vw;
+    top: 2vw;
+}
+
+#nb_ook {
+    font-family: Arial;
+    font-size: 2.3vw;
+    font-weight: 600;
+    font-stretch: condensed;
+}
+
+#marc_int {
+    font-family: Arial;
+    font-size: 0.87vw;
+    font-weight: 300;
+}
+
+#phone_num {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    height: 100%;
+    width: 30%;
+}
+
+#number {
+    position: absolute;
+    margin: auto;
+    left: 5.5vw;
+    top: 1.3vw;
+    bottom: 0;
+}
+
+#number_ph {
+    font-family: Arial;
+    font-size: 2.7vw;
+    font-weight: 700;
+}
+
+#call_to_call {
+    font-family: Arial;
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+
+#phone_img {
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    height: 4vw;
+}
+/*ORANGE LINE*/
+#orange_line {
+    position: absolute;
+    background-color: orange;
+    display: block;
+}
+
+#top_menu, #bottom_menu {
+    height: 50%;
+    margin-left: 16vw;
+}
+
+#top_menu {
+    width: 60%;
+    display: inline-block;
+    position: relative;
+}
+
+#bottom_menu {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+a:active, a:hover, a:visited, a {
+    color: white;
+    text-decoration: none;
+}
+
+table {
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.4vw;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*DROP MENU*/
+.drop_button {
+    cursor: pointer;
+}
+
+.drop_left_button {
+    cursor: pointer;
+}
+
+.drop_menu {
+    position: relative;
+    display: inline-block;
+}
+
+.left_drop {
+    position: relative;
+    display: inline-flex;
+}
+
+#just:hover, #just2:hover {
+    background-color: orange;
+    cursor: default;
+}
+
+.drop_content {
+    text-align: left;
+    display: none;
+    position: absolute;
+    background-color: orange;
+    width: 100%;
+    z-index: 1;
+}
+
+.drop_left_content {
+    text-align: left;
+    display: none;
+    position: absolute;
+    background-color: orange;
+    z-index: 1;
+    width: 100%;
+}
+
+.drop_content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop_content a:hover {
+    background-color: #514aff;
+    color: white;
+}
+
+.drop_menu:hover .drop_content {
+    display: block;
+}
+
+.left_drop:hover .drop_left_content {
+    display: block;
+    margin-left: 100%;
+}
+
+/*--------------------------------------------------*/
+
+/*                    PAGE                          */
+
+#top_div {
+    display: inline-flex;
+    height: 40vw;
+    width: 100%;
+    margin-top: 1.9vw;
+}
+/*        Photo BLOCK         */
+#comp_photo {
+    display: block;
+    position: relative;
+    width: 22%;
+    height: 65%;
+    box-shadow: 0 0 1px black;
+}
+
+#main_photo {
+    position: relative;
+    width: 100%;
+    height: 70%;
+}
+
+#main_photo img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#secondary_photo {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 70%;
+    height: 30%;
+    display: inline-flex;
+}
+
+.sec_photo {
+    display: inline-flex;
+    margin: auto;
+    width: 6vw;
+    height: 6vw;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 1px black;
+}
+
+.sec_photo img {
+    width: 100%;
+}
+/*       INFO BLOCK       */
+
+.color_blocks {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+
+#info_block {
+    width: 76%;
+    position: relative;
+    height: 100%;
+    margin-left: 1vw;
+}
+
+#price {
+    width: 100%;
+    margin-top: 1vw;
+    position: absolute;
+    background-color: gainsboro;
+    height: 4.7vw;
+    border-radius: 5px;
+}
+
+#buy_button {
+    color: white;
+    right: 0;
+    width: 10vw;
+    height: 100%;
+    background-color: #4149ff;
+    position: absolute;
+    text-align: center;
+    font-family: Arial;
+    font-size: 2.1vw;
+    border-radius: 5px;
+}
+
+#buy_button:hover {
+    cursor: pointer;
+    background-color: #7f91ff;
+}
+
+#actual_price {
+    font-family: Arial;
+    font-weight: 600;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 2vw;
+    top: 1vw;
+}
+
+#ac_pr {
+    font-size: 2.4vw;
+    display: inline;
+}
+
+#prev_pr {
+    display: inline;
+    margin-left: 2vw;
+    font-size: 2vw;
+    text-decoration: line-through;
+    color: red;
+}
+
+#more_info {
+    height: 30vw;
+    margin-top: 7vw;
+    width: 100%;
+    position: relative;
+}
+
+#avail_colors {
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    height: 100%;
+}
+
+#color_box {
+    position: relative;
+    box-shadow: 0 0 1px black;
+    display: block;
+    width: inherit;
+    height: 3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.color_chose {
+    position: relative;
+    display: inline-flex;
+    width: 2vw;
+    height: 2vw;
+    background-color: black;
+    margin: 0.5vw;
+    left: 1vw;
+}
+
+#preferences {
+    margin-top: 1vw;
+    position: relative;
+    height: 15vw;
+    font-family: Arial;
+    font-size: 1.2vw;
+}
+
+#description {
+    display: inline-block;
+    position: absolute;
+    width: auto;
+    max-width: 35%;
+    height: 100%;
+}
+
+#full_descr {
+    font-family: Arial;
+    font-size: 1.2vw;
+    margin-top: 1vw;
+}
+
+/*         FULL INFO BLOCK        */
+
+#full_info_block {
+    margin-top: 2vw;
+    position: relative;
+    display: block;
+    width: 90%;
+    height: 45%;
+}
+
+#left_b {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    font-size: 1.1vw;
+}
+
+#right_b {
+    position: absolute;
+    width: 34vw;
+    margin-left: 50%;
+    display: inline-block;
+    font-size: 1.1vw;
+    margin-top: -40vw;
+}
+
+.descr_words {
+    position: relative;
+    width: 45%;
+    display: inline-block;
+}
+
+#first_char {
+    width: 48%;
+    margin-right: 2vw;
+    display: inline-block;
+    position: relative;
+}
+
+#second_char {
+    display: inline-block;
+    position: absolute;
+}
+
+
+/*         COMMENTS          */
+
+#comments {
+    position: relative;
+    display: block;
+    width: 70vw;
+    height: 40vw;
+}
+
+.comment {
+    margin-bottom: 2vw;
+    width: 100%;
+    font-size: 1.1vw;
+}
+
+.inp , #inp{
+    color: gainsboro;
+    font-size: 1.1vw;
+}
+
+.stars {
+    display: inline-block;
+    color: #ffc92d;
+}
+
+.inf_blocks {
+    width:43%;
+    position: relative;
+    margin-bottom: 2vw;
+    display: block
+}
+
+#button_add_comment {
+    background-color: #4149ff;
+    border-radius: 4px;
+    width: 9vw;
+    height: 2vw;
+    color: white;
+    border-color: orange;
+    font-size: 0.8vw;
+    font-family: Arial;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 1199px){
+    #description {
+        max-width: 70%;
+    }
+
+    #full_info_block {
+        margin-top: 30%;
+    }
+
+    #right_b {
+        width: auto;
+        display: block;
+        margin-top: -70%;
+    }
+
+    #left_b {
+        display: block;
+        width: auto;
+    }
+
+    #comments {
+        margin-top: 30%;
+    }
+
+    #head {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1499px) and (min-width: 1200px) {
+    #description {
+        max-width: 70%;
+    }
+
+    #full_info_block {
+        margin-top: 12vw;
+    }
+
+    #right_b {
+        width: auto;
+    }
+
+    #left_b {
+        width: auto;
+    }
+
+    #head {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 1500px) {
+
+    #description {
+        max-width: 70%;
+    }
+
+    #comments {
+        margin-top: 5%;
+    }
+}

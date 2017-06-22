@@ -1,0 +1,94 @@
+#main {
+    height: 37vw;
+    width: 41.9vw;
+    border-radius: 3px;
+    box-shadow: 0 0 10px palegreen;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 1.3vw;
+    color: black;
+}
+
+table {
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+thead, tbody{
+    display: block;
+}
+
+.id_t {
+    width: 4vw;
+    max-width: 4vw;
+}
+
+.name_of_groc {
+    width: 15vw;
+    max-width: 15vw;
+}
+
+.other {
+    width: 10vw;
+    max-width: 10vw;
+}
+
+.add, .delete{
+    width: 4vw;
+    padding: 2%;
+    max-width: 4vw;
+}
+
+thead {
+    width: 41.9vw;
+    background-color: greenyellow;
+}
+
+tbody {
+    width: 42.9vw;
+    height: 80%;
+    position: fixed;
+    overflow-y: auto;    /* Trigger vertical scroll    */
+    overflow-x: hidden;
+}
+
+td {
+    box-shadow: 0 0 3px #a9ff27;
+}
+
+.other, .name_of_groc {
+    padding-left: 1%;
+}
+
+.id_t{
+    text-align: center;
+}
+
+tr {
+    height: 60px;
+    width: 100%;
+}
+
+.close {
+    color: red;
+    opacity: 1;
+}
+
+.add {
+    text-align: center;
+}
+
+#name_add {
+    width: 15vw;
+}
+
+#name_add, #cat_add, #price_add, #add_add, #but_add {
+    box-shadow: 0 0 2px #aeaeae;
+}
