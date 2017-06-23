@@ -1,7 +1,7 @@
 # test_task_Independent_Developers
 Independent developers (test_task)
 # You can read about task in file 'Вакансия_Uber_Full_Stack.pdf'
-# 'test_task_backend' Create a page wich possible to update without reloading: delete, add, update. (using AJAX)
+# 'test_task_backend' Create a page wich possible to update without reloading: delete, add, update(by blur). (using AJAX)
 
 To see how it's working I was using MAMP.
 
